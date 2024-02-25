@@ -1,0 +1,16 @@
+<app-navigation></app-navigation>
+<app-photo-carousel></app-photo-carousel>
+
+<h1>ALL CHARACTERS</h1>
+<div class="inp">
+  <input type="text" [(ngModel)]="searchTerm" placeholder="Search" (input)="search()" />
+  </div>
+<div class="homeCard">
+<app-home-card *ngFor="let i of arr" [info]="i"></app-home-card>
+</div>
+<div class="pager">
+    <button class="move" [disabled]="info.prev == null" (click)="prePage()">previous</button>
+    <button class="pageNum" *ngFor="let page of displayedPageNumbers" (click)="goToPage(page)" [class.active]="page === pageNumber">{{ page }}</button>
+    <button class="move" [disabled]="info.next == null" (click)="nextPage()">next</button>
+  </div>
+<app-footer></app-footer>

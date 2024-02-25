@@ -1,0 +1,89 @@
+.k {
+    width: 100% !important; 
+    overflow: hidden !important;
+    padding: 5px;
+  
+  }
+  .inp{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 100%;
+    padding-right: 10px;
+  }
+  input{
+    width: 200px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+  }
+  input:focus{
+    outline-color: rgb(130, 115, 65);
+    box-shadow: inset;
+  }
+  .e {
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+  }
+ 
+  .homeCard{
+    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+  }
+  body{
+    background-color: black;
+  }
+  h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+color: white;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+  }
+  :host {
+    background-color:black;
+  }
+  .pager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+.pageNum{
+  width: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(9, 70, 120, 0.64) ;
+  padding: 8px;
+  color: aliceblue;
+
+}
+
+.pageNum:hover{
+  background-color: rgba(9, 70, 120, 0.976);
+}
+
+.move:hover{
+  background-color: rgba(9, 70, 120, 0.976);
+}
+
+  .move{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(9, 70, 120, 0.64);
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

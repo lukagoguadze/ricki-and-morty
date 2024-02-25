@@ -1,0 +1,48 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+  background-color: rgba(25, 167, 219, 0.414);
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+h2{
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+a:hover{
+    color: rgb(22, 11, 11);
+}
+.g {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/hd/8e628c90310163.5e14571848b73.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+input:focus{
+    color: red !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }

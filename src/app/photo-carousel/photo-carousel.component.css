@@ -1,0 +1,28 @@
+.k {
+    width: 100% !important; 
+    overflow: hidden !important;
+    padding: 5px;
+  
+  }
+  
+  .e {
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+  }
+  
+
+  .d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeCard{
+    
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+  }
+  body{
+    background-color: black;
+  }

@@ -1,0 +1,22 @@
+<app-navigation class="nav"></app-navigation>
+<div class="card-container">
+  <div class="card" *ngFor="let episode of episodes">
+    <div class="card-body">
+      <h5 class="card-title">{{ episode.name }}</h5>
+      <p class="card-text">
+        <strong>Episode:</strong> {{ episode.episode }}<br />
+        <strong>Air Date:</strong> {{ episode.air_date }}<br />
+        
+      </p>
+      <button class="btn btn-primary" (click)="navigateToCharacters(episode.id)">
+        View Details
+      </button>
+     <app-listch *ngIf="selectedEpisode === episode.id && episode.characters.length > 0" [episodeId]="episode.id"></app-listch>
+
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+
+
+

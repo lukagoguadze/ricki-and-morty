@@ -1,0 +1,21 @@
+<div class="main">
+<div *ngIf="displayLoginForm" class="g" routerLink="/login">
+   <div class="overlay">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <h2>Login</h2>
+       
+        <input type="text" id="username" formControlName="username" class="form-control" required placeholder="Name">
+
+     
+        <input type="password" id="password2" formControlName="password" class="form-control" required placeholder="Password">
+
+      <button type="submit" class="btn btn-primary">Login</button>
+      <a (click)="jj()" routerLink="/registration">Don't have an account? Register here</a>
+
+    </div>
+    </form>
+  </div>
+  </div>
+</div>
+  

@@ -1,0 +1,71 @@
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 480px;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+}
+.pager{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 8px;
+}
+.move{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(9, 70, 120, 0.64);
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .pageNum{
+    width: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(9, 70, 120, 0.64) ;
+    padding: 8px;
+    color: aliceblue;
+  
+  }
+  
+  .pageNum:hover{
+    background-color: rgba(9, 70, 120, 0.976);
+  }
+  .buybtn{
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 8px 5px 8px;
+    font-size: 18px;
+    background-color: rgba(0, 128, 0, 0.753);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+  }
+
+  .buybtn:hover{
+    background-color: green;
+    outline: 1px solid green;
+  }

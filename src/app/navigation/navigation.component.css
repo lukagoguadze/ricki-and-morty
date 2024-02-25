@@ -1,0 +1,43 @@
+nav{
+  margin-bottom:1px;
+  background-color: rgb(15, 15, 15) !important;
+  padding-left: 10px;
+  gap: 16px !important;
+}
+h1{
+  color: aliceblue;
+}
+a{
+  color: white !important;
+  padding-left: 30px !important;
+}
+body{
+    background-color: black;
+}
+.d:hover{
+  background-color: rgba(130, 22, 22, 0.757) !important;
+}
+.d{
+  border: 1px solid rgba(130, 22, 22, 0.757) !important;
+  color: aliceblue !important;
+}
+img{
+  width: 70px;
+  height: 40px;
+}
+
+.basket{
+  fill: blue !important;
+  margin-right: 30px;
+}
+.basket:focus{
+  outline: none !important;
+  cursor: pointer;
+}
+.basket:hover{
+  cursor: pointer;
+}
+.active{
+  font-family: a !important;
+  font-size: large !important;
+}

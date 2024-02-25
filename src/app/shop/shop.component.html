@@ -1,0 +1,25 @@
+<app-navigation></app-navigation>
+<div class="all">
+<div class="card" *ngFor="let i of shop">
+    <img [src]="i.image" alt="">
+    <p>{{i.name}}</p>
+    <p>${{i.price}}</p>
+    <button class="buybtn" (click)="buy(i)">Buy</button>
+</div>
+</div>
+<div class="pager">
+    <button class="move" (click)="prePage()" [disabled]="pageNumber === 1">Previous</button>
+    <button
+      class="pageNum"
+      *ngFor="let page of displayedPageNumbers"
+      (click)="goToPage(page)"
+      [class.active]="page === pageNumber"    >
+      {{ page }}
+    </button>
+    <button class="move" (click)="nextPage()" [disabled]="pageNumber === totalPages">Next</button>
+  </div>
+  <div>
+    <a routerLink="/order">View Order</a>
+</div>
+
+<app-footer></app-footer>

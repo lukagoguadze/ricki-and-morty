@@ -1,0 +1,56 @@
+<div *ngIf="loginForm" class="both">
+<div class="g">
+    <h2>Registration</h2>
+    <form [formGroup]="forms" (ngSubmit)="onSubmit()" class="f">
+      <div class="form-group">
+        <input type="email" id="email" formControlName="email" class="form-control" placeholder="Email">
+        <div *ngIf="forms.get('email')!.hasError('email') && forms.get('email')!.touched">
+            Please enter a valid email address.
+          </div>
+      </div>
+  
+      <div class="form-group">
+     
+        <input type="password" id="password" formControlName="password" class="form-control" placeholder="Password">
+        <div *ngIf="forms.get('password')!.hasError('pattern') && forms.get('password')!.touched">
+          Please enter a valid password.
+          </div>
+          
+      </div>
+  
+      <div class="form-group">
+        <input type="password" id="repeatPassword" formControlName="repeatPassword" class="form-control" placeholder="Repeat Password">
+       
+      </div>
+      <div class="form-group">
+        <select id="gender" formControlName="gender" class="form-control" >
+          <option value="" disabled selected>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+       
+      </div>
+  
+      <div class="form-group">
+        <input type="text" id="firstName" formControlName="firstName" class="form-control"  placeholder="First Name" required>
+       
+      </div>
+  
+      <div class="form-group">
+        <input type="text" id="lastName" formControlName="lastName" class="form-control" placeholder="Last Name">
+       
+      </div>
+  
+      <div class="form-group">
+        <input type="number" id="birthYear" formControlName="birthYear" class="form-control" placeholder="Birth Year">
+        
+      </div>
+      <button type="submit" class="btn btn-primary" >Register</button>
+      <button (click)="ff()" routerLink="">Login</button>
+    </form>
+  </div>
+ 
+   
+    
+  
+</div>

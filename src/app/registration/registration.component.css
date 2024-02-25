@@ -1,0 +1,92 @@
+.g{
+ border-radius: 10px;
+  border: 1.5px solid rgba(198, 93, 110, 0.387);
+   padding: 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+}
+input{
+  
+    border-radius: 8px;
+    border: 1px solid rgb(233, 143, 158);
+    padding: 10px;
+    outline-color: #ff3cb4 !important;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: rgba(255, 192, 203, 0.627);
+    
+}
+input:focus{
+  background-color: rgba(255, 192, 203, 0.627);
+}
+select{
+  width: 400px;
+  background-color: rgba(255, 192, 203, 0.627);
+  border: 1px solid rgb(233, 143, 158);
+  color: #3f4245;
+}
+.both{
+    width: 100%;
+    display: flex;
+}
+
+.f{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    text-decoration: none;
+    background: rgba(188, 22, 166, 0.62);
+    position: relative;
+    border: none;
+    z-index: 1;
+    transition: color .3s ease-out;
+    border-radius: 78px;
+    padding: 10px 25px;
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+}
+button:hover{
+  background-color: #ff3cb4;
+}
+
+ .both{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://images3.alphacoders.com/812/812062.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+ }
+  
+ h2{
+  color: rgb(188, 8, 179);
+  font-weight: bold;
+  font-family: a;
+ }
+
+  
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

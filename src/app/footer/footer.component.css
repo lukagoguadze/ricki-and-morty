@@ -1,0 +1,101 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+h3{
+    font-size: 1.875em;
+    display: block;
+  font-family: a;
+    font-weight: 700;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+    display: block;
+   color: rgba(255,255,255,0.9);;
+}
+.icon-large {
+    font-size: 3em;
+}
+.line{
+    width: 100%;
+    border: 1px solid rgba(161, 152, 152, 0.647);
+  
+    margin-top: 80px;
+}
+.main {
+    text-align: center;
+    background-color: black;
+}
+
+.top {
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.soc {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.f{
+    margin-right: 30px;
+}
+.soc i {
+    font-size: 3em; 
+    color: white;
+    background-color: black;
+    
+    
+   
+    border-radius: 50%;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+   color: white;
+   font-weight: 700;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 15px;
+    border-right: 1px solid white;
+}
+.d{
+    border-left: 1px solid white;
+}
+p{
+    color: rgba(255,255,255,0.9);
+    font-size: 11px;
+    line-height: 20px;
+    line-height: 20px;
+}
+
+.bottom{
+    background: #000;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    letter-spacing: 0;
+    padding: 40px 10px;
+    text-align: center;
+   
+}
+
+.bottom ul{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+color: rgba(255,255,255,0.9);
+flex-wrap: wrap;
+font-size: 12px;
+
+}
+ul a{
+   color: rgba(255,255,255,0.9);;
+   font-weight: bold;
+   font-size: 15px;
+}
+.eee{
+    padding-right: 50px;
+}

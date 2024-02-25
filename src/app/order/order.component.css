@@ -1,0 +1,59 @@
+.order-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    background-color: white;
+    height: 450px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+}
+.noitem{
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+button{
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 8px 5px 8px;
+    background-color: rgba(201, 0, 0, 0.846);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+button:hover{
+    background-color: rgb(219, 41, 41);
+    outline: 1px solid  rgb(219, 41, 41);
+}
+.price{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.name{
+    font-weight: 500;
+}
+

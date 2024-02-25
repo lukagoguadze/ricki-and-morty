@@ -1,0 +1,19 @@
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .character-item {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .character-item:hover{
+    outline: none;
+    background-color: #534b4b; 
+    box-shadow: rgba(0, 94, 234, 0.671) 0px 5px 15px;
+}

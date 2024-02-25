@@ -1,0 +1,16 @@
+<app-navigation></app-navigation>
+<div  *ngIf="order.length > 0">
+    <h2>Your Order</h2>
+    <div class="all">
+    <div class="order-item" *ngFor="let item of order; let i = index">
+        <img [src]="item.image" alt="">
+        <p class="name">{{item.name}}</p>
+        <p class="price">${{item.price}}</p>
+       <button (click)="removeItem(i)">Remove</button>
+    </div>
+</div>
+  </div>
+  <div class="noitem" *ngIf="order.length === 0">
+    <p>No items in your order.</p>
+  </div>
+  <app-footer></app-footer>
